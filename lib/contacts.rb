@@ -27,7 +27,7 @@ def remove_strawberry(contacts)
         email: "freddy@mercury.com",
        favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
      }
-  
    }
-
+contacts[:"Freddy Mercury"][:favorite_ice_cream_flavors]
+contacts
 end
